@@ -18,6 +18,23 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\TSP_Project_Group_44.c" />
+    <ClCompile Include="kruskalAlg.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\tsp_example_1.txt" />
+    <Text Include="..\..\tsp_example_2.txt" />
+    <Text Include="..\..\tsp_example_3.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\tsp-verifier.py" />
+    <None Include="..\..\TSPAllVisited.py" />
+    <None Include="..\..\watch.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="kruskalAlg.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{8B7D2AF9-E189-4913-92A9-7957312C5924}</ProjectGuid>
     <RootNamespace>CS325_TSP_Implementation</RootNamespace>
@@ -109,9 +126,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\Documents\Education\Oregon State University\Spring 2018\CS 325\Project\TSPFiles\TSP_Project_Group_44.c" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

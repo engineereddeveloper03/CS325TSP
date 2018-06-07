@@ -15,8 +15,26 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\Documents\Education\Oregon State University\Spring 2018\CS 325\Project\TSPFiles\TSP_Project_Group_44.c">
+    <ClCompile Include="..\..\TSP_Project_Group_44.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="kruskalAlg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\tsp_example_1.txt" />
+    <Text Include="..\..\tsp_example_2.txt" />
+    <Text Include="..\..\tsp_example_3.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\TSPAllVisited.py" />
+    <None Include="..\..\tsp-verifier.py" />
+    <None Include="..\..\watch.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="kruskalAlg.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
